@@ -1,0 +1,42 @@
+{
+  "name": "simplyclean-ad",
+  "version": "2.0.0",
+  "private": true,
+  "description": "SimplyClean — 60s advertisement. Booking-connected turnover cleaning for independent short-term-rental hosts.",
+  "scripts": {
+    "studio": "remotion studio",
+    "dev": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "setup": "bash scripts/make-placeholders.sh && bash scripts/music.sh",
+    "build": "remotion render src/index.ts Ad out/ad-1080p.mp4",
+    "build:final": "bash scripts/assemble.sh",
+    "build:preview": "npm run setup && npm run build",
+    "build:hq": "bash scripts/render-hq.sh",
+    "render:segments": "remotion render src/index.ts SegmentHook out/segment-hook.mp4 && remotion render src/index.ts SegmentTitle out/segment-title.mp4 && remotion render src/index.ts SegmentConnector out/segment-connector.mp4 && remotion render src/index.ts SegmentAutomate out/segment-automate.mp4",
+    "still": "remotion still",
+    "footage:check": "remotion render src/index.ts FootageCheck out/footage-check.mp4",
+    "inspect": "bash scripts/inspect.sh",
+    "conform": "bash scripts/conform.sh",
+    "music": "bash scripts/music.sh",
+    "placeholders": "bash scripts/make-placeholders.sh"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.525",
+    "@remotion/google-fonts": "4.0.525",
+    "@remotion/mac-cursors": "4.0.525",
+    "@remotion/media-utils": "4.0.525",
+    "@remotion/sfx": "4.0.525",
+    "@remotion/shapes": "4.0.525",
+    "@remotion/transitions": "4.0.525",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.525",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "typescript": "5.8.2"
+  }
+}

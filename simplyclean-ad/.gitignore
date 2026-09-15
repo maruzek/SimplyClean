@@ -1,0 +1,36 @@
+# ── Renders ────────────────────────────────────────────────────────────────────
+# Everything here is regenerable from the source + the conformed media in public/.
+# It is also large: a full out/ tree is over 1 GB, and GitHub hard-rejects any single
+# file over 100 MB — the ProRes master alone is ~995 MB.
+out/
+
+# ── Dependencies ───────────────────────────────────────────────────────────────
+node_modules/
+
+# ── Raw camera originals ───────────────────────────────────────────────────────
+# Deliberately NOT committed. Two reasons:
+#   1. Size — 146 MB across three files, and IMG_9305.MOV alone is 95.6 MB, right at
+#      GitHub's 100 MB hard limit.
+#   2. Consent — this is unedited footage of an identifiable person in their own home.
+#      Anyone with access to the repo can see it, forever, including in git history.
+# The CONFORMED, graded clips in public/footage/ ARE committed, so a teammate can open
+# Remotion Studio, edit and re-render immediately without these files. They are only
+# needed to re-run conform.sh from scratch (different in-point or grade).
+# See docs/SHARING.md for how to hand them over separately if that is ever wanted.
+incoming/
+
+# ── Local pipeline bookkeeping ─────────────────────────────────────────────────
+scripts/.state/
+*.log
+
+# ── OS / editor noise ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# ── Verification stills ────────────────────────────────────────────────────────
+# Frame dumps used while checking layout and cursor alignment. Useful locally, not
+# part of the deliverable.
+out/check/

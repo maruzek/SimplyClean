@@ -1,0 +1,253 @@
+MUSIC ATTRIBUTION — turnover-ad
+===============================
+Prepared: 2026-09-15 (Europe, CEST) — download date 2026-09-15.
+
+--------------------------------------------------------------------------
+1. THE FILE
+--------------------------------------------------------------------------
+Path:      /home/oliver/Projects/turnover-ad/assets/music/track.mp3
+Size:      11,106,408 bytes (10.59 MiB)
+SHA-256:   8dabdc650ed2db00c9b5b685e5c9ddbc9e14e5d9f4a8dcd3f87db3ccf139e41e
+Format:    MP3 (MPEG-1 Layer III), CBR 320 kbps, 44.1 kHz, 2 ch (joint stereo)
+Duration:  277.568 s (4 min 37.6 s) — comfortably over the 60 s minimum
+Encoder:   LAME3.99r
+ID3 tags:  title=Catalyst · artist=Scott Buckley · album=www.scottbuckley.com.au/library
+           genre=Soundtrack · date=2020
+
+ffprobe (excerpt):
+  codec_name=mp3            sample_rate=44100      channels=2  channel_layout=stereo
+  bit_rate=320000           duration=277.568186     size=11106408
+`file` reports: Audio file with ID3 version 2.3.0, contains: MPEG ADTS, layer III,
+  v1, 320 kbps, 44.1 kHz, JntStereo
+=> Real, decodable audio. Not an HTML error page.
+
+scripts/music.sh picks up any single *.mp3 in this directory, so this file is
+already the pipeline's music source; ATTRIBUTION.txt is ignored by that glob.
+
+--------------------------------------------------------------------------
+2. THE TRACK
+--------------------------------------------------------------------------
+Title:   Catalyst
+Artist:  Scott Buckley
+Year:    2020 (track page dated 19 Jun, 2020)
+Type:    Instrumental (synths + orchestra). No vocal is credited or tagged.
+Mood (the composer's own words, quoted from the track page):
+  "Dark, driving synths and orchestra builds into an inspirational,
+   adventurous epic theme."
+
+--------------------------------------------------------------------------
+3. THE SOURCE
+--------------------------------------------------------------------------
+Direct file URL (what was actually downloaded, unauthenticated, HTTP 200 -> audio/mpeg):
+  https://www.scottbuckley.com.au/library/wp-content/uploads/2020/06/sb_catalyst.mp3
+
+Landing page (title, description, licence statement, download button):
+  https://www.scottbuckley.com.au/library/catalyst/
+
+Author's licence overview page:
+  https://www.scottbuckley.com.au/library/using-this-music/
+
+--------------------------------------------------------------------------
+4. THE LICENCE
+--------------------------------------------------------------------------
+Name + version:  Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Licence text (deed):   https://creativecommons.org/licenses/by/4.0/
+Legal code:            https://creativecommons.org/licenses/by/4.0/legalcode
+
+Quoted from the author's licence page
+(https://www.scottbuckley.com.au/library/using-this-music/):
+  "The music (mp3 downloads) found on scottbuckley.com.au is made available
+   under the Creative Commons 'Attribution 4.0 International'  (CC BY 4.0)
+   License (unless stated otherwise)."
+  "Simply put – this means that the music in this library is FREE, even for
+   commercial use, as long as attribution is given."
+
+Quoted from the track page
+(https://www.scottbuckley.com.au/library/catalyst/):
+  "This work is licensed under a Creative Commons Attribution 4.0 International
+   License ; meaning it's free for use in any project (including commercial)
+   as long as I'm credited."
+
+Quoted from the CC BY 4.0 deed
+(https://creativecommons.org/licenses/by/4.0/):
+  "You are free to: Share — copy and redistribute the material in any medium
+   or format for any purpose, even commercially. Adapt — remix, transform, and
+   build upon the material for any purpose, even commercially."
+  "Under the following terms: Attribution — You must give appropriate credit,
+   provide a link to the license, and indicate if changes were made."
+
+Commercial use, no royalty:  YES, verifiably. CC BY 4.0 expressly permits
+commercial use with no fee or royalty. The only condition is attribution.
+
+--------------------------------------------------------------------------
+5. IS ATTRIBUTION REQUIRED?
+--------------------------------------------------------------------------
+YES — attribution is a LEGAL CONDITION of CC BY 4.0, not a courtesy.
+
+Exact attribution string to use (the author's own requested format, quoted
+verbatim from the track page):
+
+  'Catalyst' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+Where to put it: the author's stated requirement is a credit line, with a link
+to the licence, in the video description / accompanying credits text:
+  "Important info for YouTube users: Credits must be provided in the video
+   description (not in the video itself). If you don't do this, you will
+   likely get a copyright claim on the video."
+So: put the string above in the ad's description/metadata on every platform it
+is published on (YouTube, LinkedIn, the site, etc.). A small end-card credit is
+also worth adding for safety, but the author asks for the description, not the
+video itself.
+
+IMPORTANT CAVEAT — read before using this in paid/broadcast placement.
+Quoted from the author's licence page, verbatim:
+  "What if you are working on a project which cannot provide attribution (for
+   instance, a TV advertisement)? In this instance, the CC-BY license does not
+   apply, and you will need to buy a license."
+If this ad is ever placed somewhere a credit line genuinely cannot appear
+(broadcast TV, some paid ad placements), this free licence does not cover that
+use and a paid licence from the composer would be required. For online/web
+placement where the description can carry the credit, CC BY 4.0 applies.
+
+Also quoted from the same page (restrictions that do not affect this use):
+  "My music cannot be resold in isolation, or redistributed/reuploaded to music
+   streaming platforms, and must be synchronised with other media (e.g. film)."
+
+--------------------------------------------------------------------------
+6. RUNNERS-UP (not downloaded — swap candidates for the engineer)
+--------------------------------------------------------------------------
+All were checked for a real, direct, unauthenticated MP3 URL, a duration over
+60 s, and a verifiable commercial-use licence. Numbers in brackets are measured
+from the actual files during evaluation (mean spectral centroid; RMS level per
+brief section) — see the notes in section 7.
+
+CC BY 4.0 (same licence, same attribution format as the chosen track):
+  * "Discovery" — Scott Buckley, 236 s, 320 kbps single, centroid ~1220 Hz.
+    Composer's words: "A driving, optimistic hybrid orchestral track featuring
+    arpeggiated synth and dramatic brass & strings."
+    Page:  https://www.scottbuckley.com.au/library/discovery/
+    MP3:   https://www.scottbuckley.com.au/library/wp-content/uploads/2020/01/sb_discovery.mp3
+    (Strongest alternative: the most overtly "optimistic + driving" of the set,
+     but it opens at full arpeggio energy with no sparse intro, so the 0:14
+     "arrival" is less pronounced.)
+  * "Clear Skies" — Scott Buckley, 195 s, 320 kbps single, centroid ~1597 Hz.
+    Composer's words: "Uplifting, positive orchestral vibes."
+    Page:  https://www.scottbuckley.com.au/library/clear-skies/
+    MP3:   https://www.scottbuckley.com.au/library/wp-content/uploads/2024/02/ClearSkies.mp3
+    (Best near-silent intro of the set and the cleanest file-end fade to
+     silence; pure orchestra, so slightly less "modern electronic".)
+  * "Inbound" — Scott Buckley, 244 s, 320 kbps single, centroid ~1228 Hz.
+    Composer's words: "An uplifting, inspiring orchestral track which slowly
+     builds to a brassy, soaring finish."
+    Page:  https://www.scottbuckley.com.au/library/inbound/
+    MP3:   https://www.scottbuckley.com.au/library/wp-content/uploads/2019/11/sb_inbound.mp3
+  * "Convergence" — Scott Buckley, 220 s, 320 kbps single, centroid ~1224 Hz.
+    Composer's words: "An emotional, melancholic (but also surprisingly upbeat)
+     track with strings and synth – with a final section with a subtle 4/4 kick
+     creating a driving energy."
+    Page:  https://www.scottbuckley.com.au/library/convergence/
+    MP3:   https://www.scottbuckley.com.au/library/wp-content/uploads/2026/04/Convergence.mp3
+
+Mixkit Stock Music Free License (commercial use, NO attribution required —
+a different licence from the one used above; terms quoted in section 8):
+  * "A New Life" — Eugenio Mininni, 99 s, 256 kbps, centroid ~1204 Hz.
+    Best structural match to the brief of anything measured: near-silence
+    intro, gradual build, warm body, and an abrupt stop into true silence
+    (~8 s of digital silence at the end).
+    Page:  https://mixkit.co/free-stock-music/discover/a-new-life-543/
+    MP3:   https://assets.mixkit.co/music/543/543.mp3
+  * "Your Breath" — Eugenio Mininni, 236 s, 256 kbps, centroid ~2283 Hz.
+    Page:  https://mixkit.co/free-stock-music/discover/your-breath-634/
+    MP3:   https://assets.mixkit.co/music/634/634.mp3
+  * "Infinity" — Arulo, 103 s, 256 kbps, centroid ~2259 Hz.
+    Page:  https://mixkit.co/free-stock-music/discover/infinity-440/
+    MP3:   https://assets.mixkit.co/music/440/440.mp3
+  * "Slow Rain" — Alejandro Magaña (A. M.), 129 s, 256 kbps.
+    Page:  https://mixkit.co/free-stock-music/discover/slow-rain-122/
+    MP3:   https://assets.mixkit.co/music/122/122.mp3
+
+--------------------------------------------------------------------------
+7. HONEST ASSESSMENT AGAINST THE MUSICAL BRIEF
+--------------------------------------------------------------------------
+Limitation, stated up front: this was selected WITHOUT listening. The
+assessment below rests on (a) the composer's own description of the track and
+(b) objective measurements taken from the decoded audio — a 1-second RMS
+envelope across the first 60 s, mean spectral centroid over the first 60 s,
+band-balance figures, and a fade analysis of the final 8 s. Treat the musical
+judgement as informed, not first-hand.
+
+Measured first-60-seconds RMS (dBFS), against the brief's cue sheet:
+
+  section        brief wants                        Catalyst measured
+  ------------   --------------------------------   ----------------
+  0:00–0:03      near-silence, one or two notes     -60.9   (near silent)
+  0:03–0:14      tension, pulse, must not resolve   -35.4   (sparse, building)
+  0:14–0:17      ARRIVAL, first warm chord          -25.6   (clear step up)
+  0:17–0:36      modern, optimistic, driving        -22.1   (sustained body)
+  0:36–0:45      warmest passage                    -21.1   (peak)
+  0:45–0:54      confident, moving forward          -20.4   (peak)
+  0:54–1:00      gentle resolution                  -21.7   (slight easing)
+  end of file    clean stop                          fades to digital silence (-90 dBFS)
+                                                      over the last ~1 s
+
+  Mean spectral centroid first 60 s: ~1370 Hz — low-mid centred, i.e. warm
+  rather than bright, with very little energy above 6 kHz (-34 dB below the
+  full-band level), which leaves obvious headroom for UI ticks on top.
+
+Where it matches the brief well:
+  * Instrumental, no vocals — nothing competes with on-screen text.
+  * The arc is close to the scripted one: near-silent sparse opening, a build
+    through the first 14 s, a clear arrival step at 0:14, a sustained driving
+    body, and a real ending (it decays to digital silence rather than being
+    chopped).
+  * Warm, midrange-centred mix; the top end is open enough for UI ticks.
+  * No jarring drops: the envelope rises monotonically and holds.
+  * 4 min 38 s of material, so the edit has room to choose a better 60 s window
+    than the opening if the picture needs it.
+
+Where it is a judgement call and may not fit:
+  * The composer describes the opening as "dark" synths. That suits the
+    problem/tension half of the ad, but if the brand tone wants brightness from
+    the first frame, "Discovery" or "Clear Skies" (above) are safer.
+  * The description calls the payoff "adventurous epic". That is bigger and more
+    cinematic than the restrained Stripe/Linear-style reference in the brief;
+    only listening will settle whether it reads as premium or as trailer music.
+  * Steady tempo and no sudden dynamic shifts are supported by the measurements
+    (no dips in the envelope), but tempo/BPM was not independently verified.
+  * The ending is clean in the file, but the pipeline trims to 60 s, so the cut
+    point will need a short manual fade unless the edit lands on a phrase
+    boundary — the source does not stop at 1:00.
+
+--------------------------------------------------------------------------
+8. WHAT WAS TRIED AND COULD NOT BE VERIFIED (or could not be downloaded)
+--------------------------------------------------------------------------
+* Pixabay (pixabay.com/music) — the licence would have been the easiest to
+  verify (Pixabay Content Licence, commercial use, no attribution), and Pixabay
+  had good candidate tracks. It was NOT usable from this machine:
+    - pixabay.com itself sits behind a Cloudflare bot challenge. Direct curl
+      and public CORS/text proxies all returned HTTP 403 "Just a moment...".
+      Only a third-party reader proxy (r.jina.ai) could render the pages, and
+      it strips the download URL.
+    - Every cdn.pixabay.com audio path tried (several filename patterns, with
+      and without Referer/Origin/browser headers) returned HTTP 403 with an S3
+      body: `<Error><Code>AccessDenied</Code>...`. The same CDN serves the cover
+      art fine, so audio delivery is specifically locked down/signed.
+    No Pixabay track was downloaded, and no Pixabay licence is relied upon here.
+* Free Music Archive (freemusicarchive.org) — reachable, but track download
+  links redirect to /login ("https://freemusicarchive.org/track/x/download"
+  -> "https://freemusicarchive.org/login"). The task forbids signing up, so
+  nothing was taken from FMA.
+* Incompetech (incompetech.com) — direct MP3 files download fine and the
+  catalogue is CC BY 4.0, but the site's browse pages are currently broken
+  server-side (PHP fatal errors: `Call to undefined function mysql_pconnect()`
+  on collections.html), so the catalogue could not be reasonably searched.
+* Bensound (bensound.com) — direct MP3 requests 403 from behind their CDN.
+* Content ID caution: the composer registers his library with Content ID and
+  says claims are likely if the credit line is missing; his page provides a
+  claim-release process. Mixkit states the same kind of caution for its music.
+  Add the attribution string wherever the ad is published.
+
+Licence confidence: HIGH for the chosen track. The licence is stated on the
+track page itself, restated on the author's licence page, and matches the
+canonical CC BY 4.0 deed quoted above. Nothing here is inferred or assumed.
