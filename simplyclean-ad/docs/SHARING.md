@@ -8,8 +8,8 @@ editing software to install — the whole video is code, plus ffmpeg.
 ## Get running in about three minutes
 
 ```bash
-git clone <this-repo-url>
-cd SimplyClean/video-ad        # or wherever this folder lands
+git clone https://github.com/maruzek/SimplyClean.git
+cd SimplyClean/simplyclean-ad
 
 npm install                    # ~260 packages
 npm run studio                 # opens the visual editor in your browser
