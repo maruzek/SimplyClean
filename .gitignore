@@ -1,0 +1,7 @@
+node_modules/
+simplyclean-video/out/
+__pycache__/
+.~lock.*#
+.DS_Store
+.env
+*.pdf
