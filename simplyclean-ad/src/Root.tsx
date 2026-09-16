@@ -1,6 +1,7 @@
 import React from 'react';
 import {Composition} from 'remotion';
 import {Ad, FOOTAGE_CHECK_FRAMES, FootageCheck} from './Ad';
+import {BrandLogo} from './BrandLogo';
 import {Hook} from './segments/Hook';
 import {TitleCard} from './segments/TitleCard';
 import {Connector} from './segments/Connector';
@@ -73,6 +74,57 @@ export const RemotionRoot: React.FC = () => {
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
+      />
+
+      {/* ── Logo exports ──────────────────────────────────────────────────
+          Single-frame compositions for producing brand assets as transparent PNGs.
+          Render with:
+            npx remotion still src/index.ts BrandLogo out/logo/mark-1024.png
+          Nothing paints a background, so the PNG carries a real alpha channel. */}
+      <Composition
+        id="BrandLogo"
+        component={BrandLogo}
+        durationInFrames={1}
+        fps={FPS}
+        width={1024}
+        height={1024}
+        defaultProps={{variant: 'colour' as const, lockup: false}}
+      />
+      <Composition
+        id="BrandLogoWhite"
+        component={BrandLogo}
+        durationInFrames={1}
+        fps={FPS}
+        width={1024}
+        height={1024}
+        defaultProps={{variant: 'white' as const, lockup: false}}
+      />
+      <Composition
+        id="BrandLogoInk"
+        component={BrandLogo}
+        durationInFrames={1}
+        fps={FPS}
+        width={1024}
+        height={1024}
+        defaultProps={{variant: 'ink' as const, lockup: false}}
+      />
+      <Composition
+        id="BrandLockup"
+        component={BrandLogo}
+        durationInFrames={1}
+        fps={FPS}
+        width={2048}
+        height={512}
+        defaultProps={{variant: 'colour' as const, lockup: true}}
+      />
+      <Composition
+        id="BrandLockupWhite"
+        component={BrandLogo}
+        durationInFrames={1}
+        fps={FPS}
+        width={2048}
+        height={512}
+        defaultProps={{variant: 'white' as const, lockup: true}}
       />
     </>
   );
